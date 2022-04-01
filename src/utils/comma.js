@@ -15,7 +15,7 @@ function comma(value) {
         output = output.substring(1)
     }
 
-    return isNeg ? "-" + parseFloat(output).LocaleString("ta-IN") + decimal : parseFloat(output).toLocaleString("ta-IN") + decimal;
+    return isNeg ? "-" + parseFloat(output).toLocaleString("ta-IN") + decimal : parseFloat(output).toLocaleString("ta-IN") + decimal;
 
     
 }
